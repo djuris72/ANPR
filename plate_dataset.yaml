@@ -1,0 +1,7 @@
+path: D:\UNI\2025-2026\Semestar II\MasinskoUcenje\OiPRT\ANPR\yolo_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names: ['license_plate']

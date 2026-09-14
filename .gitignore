@@ -1,0 +1,27 @@
+# === Dataset (regenerate via notebook, see README) ===
+yolo_dataset/
+outputs/
+
+# === Model weights / pretrained checkpoints (large binaries) ===
+*.pt
+*.pth
+
+# === Training run artifacts (plots, logs, weights - regenerable) ===
+runs/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# === OS / editor junk ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
